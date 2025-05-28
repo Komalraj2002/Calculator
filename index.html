@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <!-- Make the input class -->
+    <div class="main">
+        <input type="text" id="inp">
+    </div>
+    <!-- Make the calculator buttons -->
+    <div class="calcu">
+        <div class="calcu_button"><button onclick="getValue('1')">1</button></div>
+        <div class="calcu_button"><button onclick="getValue('2')">2</button></div>
+        <div class="calcu_button"><button onclick="getValue('3')">3</button></div>
+        <div class="calcu_button"><button onclick="getValue('4')">4</button></div>
+
+        <div class="calcu_button"><button onclick="getValue('5')">5</button></div>
+        <div class="calcu_button"><button onclick="getValue('6')">6</button></div>
+        <div class="calcu_button"><button onclick="getValue('7')">7</button></div>
+        <div class="calcu_button"><button onclick="getValue('8')">8</button></div>
+
+        <div class="calcu_button"><button onclick="getValue('9')">9</button></div>
+        <div class="calcu_button"><button onclick="getValue('0')">0</button></div>
+        <div class="calcu_button"><button onclick="getValue('+')">+</button></div>
+        <div class="calcu_button"><button onclick="getValue('-')">-</button></div>
+
+        <div class="calcu_button"><button onclick="getValue('*')">*</button></div>
+        <div class="calcu_button"><button onclick="getValue('/')">/</button></div>
+        <div class="calcu_button"><button onclick="getResult()">=</button></div>
+        <div class="calcu_button"><button onclick="clearValue()">Clear</button></div>
+    </div>
+
+    <!-- Add the JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
