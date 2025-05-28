@@ -1,2 +1,2 @@
 # simple Calculator
-a simple calculator using react js
+a simple calculator using html css js
